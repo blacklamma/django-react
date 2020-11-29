@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'djreact.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'djongoexample',
+        'HOST': 'mongodb+srv://blacklamma:JgZJoAzf2HY5kwRZ@cluster0.jp8le.mongodb.net/djongoexample?retryWrites=true&w=majority',
+        'USER': 'blacklamma',
+        'PASSWORD': 'JgZJoAzf2HY5kwRZ'
     }
 }
 

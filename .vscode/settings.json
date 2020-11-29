@@ -1,0 +1,8 @@
+{
+    "python.linting.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "underline",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}
